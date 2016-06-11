@@ -167,7 +167,8 @@
       background-color: lightgray;
       text-decoration: none;
       display: inline-block;
-      margin-top: 0.5rem; }
+      margin-top: 0.5rem;
+      font-weight: bold; }
       .horizontal-gallery article .btn.show:hover {
         cursor: pointer;
         background-color: #3498db;
