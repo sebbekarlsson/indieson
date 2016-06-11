@@ -27,7 +27,8 @@
       min-width: 128px;
       display: inline-block;
       text-align: center;
-      font-weight: 200; }
+      font-weight: 200;
+      text-decoration: none; }
       .navbar ul .navbtn:hover, .navbar li .navbtn:hover {
         cursor: pointer;
         border-bottom-color: #34495e;
