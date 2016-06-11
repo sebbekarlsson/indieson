@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #34495e; }
+
+.content {
+  width: 1080px;
+  margin: auto;
+  position: relative; }
+  .content section {
+    position: relative; }
+
+.navbar {
+  height: 48px;
+  border-bottom-color: lightgray;
+  border-bottom-width: 3px;
+  border-bottom-style: solid; }
+  .navbar ul {
+    font-size: 0; }
+  .navbar ul, .navbar li {
+    list-style: none;
+    display: inline-block;
+    height: 100%; }
+    .navbar ul .navbtn, .navbar li .navbtn {
+      height: 100%;
+      min-width: 128px;
+      display: inline-block;
+      text-align: center;
+      font-weight: 200; }
+      .navbar ul .navbtn:hover, .navbar li .navbtn:hover {
+        cursor: pointer;
+        border-bottom-color: #34495e;
+        border-bottom-style: solid;
+        border-bottom-width: 3px; }
+  .navbar li {
+    line-height: 48px;
+    vertical-align: middle;
+    font-size: 1rem; }
+  .navbar .brand a {
+    text-decoration: none;
+    font-weight: bold;
+    height: 100%;
+    display: inline-block;
+    min-width: 128px;
+    text-align: center; }
+    .navbar .brand a:hover {
+      border-bottom-color: #34495e;
+      border-bottom-style: solid;
+      border-bottom-width: 3px; }
+
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 360px;
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.45), rgba(0, 0, 0, 0.45)), url("../image/half_life_1.jpg"), center, 100%; }
+  .hero span section {
+    width: 80%;
+    margin: auto; }
+    .hero span section p, .hero span section h1, .hero span section h2, .hero span section h3, .hero span section h4 {
+      color: white !important; }
+    .hero span section h1, .hero span section h2, .hero span section h3, .hero span section h4 {
+      font-weight: bold; }
+    .hero span section p {
+      font-weight: 200; }
+
+.tilt-tab {
+  width: 200px;
+  height: 32px;
+  line-height: 32px;
+  vertical-align: middle;
+  position: absolute;
+  top: 24px;
+  left: -60px;
+  z-index: 10;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: #2ecc71;
+  -ms-transform: rotate(-40deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-40deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-40deg); }
+  .tilt-tab:hover {
+    cursor: pointer; }
+
+.tilt-tab.new {
+  background-color: #f39c12; }
+
+.tilt-tab.updated {
+  background-color: #3498db; }
+
+.btn.default {
+  min-width: 128px;
+  height: 32px;
+  line-height: 32px;
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+  border-width: 1px;
+  border-color: lightgray;
+  border-style: solid;
+  text-decoration: none; }
+  .btn.default:hover {
+    cursor: pointer;
+    background-color: #3498db;
+    color: white; }
+
+.bottom-right-corner {
+  position: absolute;
+  right: 0;
+  bottom: 0.5rem;
+  margin: 0 !important; }
+
+.horizontal-gallery {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: calc(300px + 0.5rem); }
+  .horizontal-gallery article {
+    position: relative;
+    height: 256px;
+    width: 256px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    overflow: hidden;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .horizontal-gallery article span section {
+      width: 60%;
+      padding-top: 3rem;
+      margin: auto; }
+      .horizontal-gallery article span section p, .horizontal-gallery article span section h1, .horizontal-gallery article span section h2, .horizontal-gallery article span section h3, .horizontal-gallery article span section h4 {
+        color: white !important; }
+      .horizontal-gallery article span section h1, .horizontal-gallery article span section h2, .horizontal-gallery article span section h3, .horizontal-gallery article span section h4 {
+        font-weight: bold; }
+      .horizontal-gallery article span section p {
+        font-weight: 200; }
+    .horizontal-gallery article .btn.show {
+      min-width: 64px;
+      height: 24px;
+      line-height: 24px;
+      text-align: center;
+      color: #34495e;
+      background-color: lightgray;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 0.5rem; }
+      .horizontal-gallery article .btn.show:hover {
+        cursor: pointer;
+        background-color: #3498db;
+        color: white; }
+
+.decoration {
+  font-weight: 200;
+  font-size: 1rem; }
+
+.text h1, .text h2, .text h3, .text h4, .text h5, .text h6 {
+  font-weight: bold; }
+.text p {
+  font-weight: 200; }
+
+.push-down {
+  margin-top: 0.5rem; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+/*# sourceMappingURL=style.css.map */
